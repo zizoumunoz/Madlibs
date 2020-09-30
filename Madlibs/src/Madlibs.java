@@ -11,6 +11,16 @@ public class Madlibs {
 		
 		System.out.println(madLib);
 		
+		System.out.println("Enter a color:");
+		color = keyScan.nextLine();
+		System.out.println("Enter a past-tense verb");
+		verb = keyScan.nextLine();
+		System.out.println("Enter an adjective");
+		adjective = keyScan.nextLine();
+		madLib = "The " + color + " dragon " + verb + " at the " + adjective + " knight.";
+		
+		System.out.println(madLib);
+		
 		keyScan.close();
 	}
 
